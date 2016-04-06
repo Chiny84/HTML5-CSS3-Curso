@@ -1,0 +1,11 @@
+# OS X FILES
+.DS_Store
+
+#Windows files
+Thumbs.db
+
+#Ubuntu files
+._*
+
+# Java bin files
+*.class
