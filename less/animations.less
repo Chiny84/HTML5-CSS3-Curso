@@ -1,0 +1,34 @@
+.boing-animation {
+	animation: boing 1.5s;
+}
+
+// animación rebote
+@keyframes boing {
+	0% {
+		transform : translate(0, 200%);
+	}
+
+	40% {
+		transform : translate(0, -25%) scale(2);
+	}
+
+	60% {
+		transform : translate(0, 20%);
+	}
+
+	80% {
+		transform : translate(0, -15%);
+	}
+
+	90% {
+		transform : translate(0, 10%);
+	}
+
+	95% {
+		transform : translate(0, -5%);
+	}
+
+	100% {
+		transform : translate(0, 0);	
+	}
+}

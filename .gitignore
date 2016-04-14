@@ -9,3 +9,6 @@ Thumbs.db
 
 # Java bin files
 *.class
+
+# Node modules
+node_modules/

@@ -1,0 +1,26 @@
+{
+  "name": "theateam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chiny84/HTML5-CSS3-Curso.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chiny84/HTML5-CSS3-Curso/issues"
+  },
+  "homepage": "https://github.com/Chiny84/HTML5-CSS3-Curso#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^1.0.0",
+    "grunt-contrib-less": "^1.2.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

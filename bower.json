@@ -1,0 +1,21 @@
+{
+  "name": "the-a-team",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Diego Garcia <Diego.Garcia@babel.es>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Chiny84/HTML5-CSS3-Curso",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.5.1"
+  }
+}

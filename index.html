@@ -1,100 +1,152 @@
 <!DOCTYPE html>
 <html>
+​
 <head>
-	<meta charset="utf-8">
-	<title>El equipo A</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>El Equipo A</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>	
-	<header>
-		<h1>El equipo A</h1>
-		<nav>
-			<a href="">Inicio</a>
-			<a href="">Quienes somos</a>
-			<a href="">Qué hacemos</a>
-			<a href="">Contacto</a>
-		</nav>
-	</header>
-	
-	<section id="quienes-somos">
-		<header>
-			<h2>Quienes somos</h2>
-		</header>
-		<article>
-			<header>
-				<h3>
-					John Hannibal Smith
-					(<cite>George Peppard</cite>)
-				</h3>
-				<h4>Coronel</h4>	
-			</header>	
-			<figure>
-				<img src="img/smith.png" alt="Foto de Hannibal Smith">
-				<figcaption>
-					John Hannibal Smith
-				</figcaption>
-			</figure>		
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quaerat accusantium veritatis iusto eum sit eveniet, dolorem rerum tenetur nemo error? Fugiat vel possimus illum nemo aliquam libero tempore, ex!</p>
-		</article>
-		<article>
-			<header>
-				<h3>
-					Bosco A. M. A. Baracus
-					(<cite>Mr. T.</cite>)
-				</h3>
-				<h4>Sargento</h4>	
-			</header>	
-			<figure>
-				<img src="img/ma.png" alt="Foto de M.A.">
-				<figcaption>
-					Bosco A. M. A. Baracus
-				</figcaption>
-			</figure>		
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quaerat accusantium veritatis iusto eum sit eveniet, dolorem rerum tenetur nemo error? Fugiat vel possimus illum nemo aliquam libero tempore, ex!</p>
-		</article>
-		<article>
-			<header>
-				<h3>
-					H. M. Murdock
-					(<cite>Dwight Schultz</cite>)
-				</h3>
-				<h4>Capitán</h4>	
-			</header>	
-			<figure>
-				<img src="img/murdock.png" alt="Foto de murdock">
-				<figcaption>
-					H. M. Murdock
-				</figcaption>
-			</figure>		
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quaerat accusantium veritatis iusto eum sit eveniet, dolorem rerum tenetur nemo error? Fugiat vel possimus illum nemo aliquam libero tempore, ex!</p>
-		</article>
-		<article>
-			<header>
-				<h3>
-					Templeton Peck o Fenix
-					(<cite>Dirck Benedict</cite>)
-				</h3>
-				<h4>Sargento</h4>	
-			</header>	
-			<figure>
-				<img src="img/peck.png" alt="Foto de Fenix">
-				<figcaption>
-					Fenix
-				</figcaption>
-			</figure>		
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quaerat accusantium veritatis iusto eum sit eveniet, dolorem rerum tenetur nemo error? Fugiat vel possimus illum nemo aliquam libero tempore, ex!</p>
-		</article>
-	</section>
-	<section id="que-hacemos">
-		<header>
-			<h2>Qué hacemos</h2>			
-		</header>
-		<p>En <time datetime="1972">1972</time> cuatro de los mejores hombres del ejercito Norteamericano que formaban un comando,fueron encarcelados por un delito que no habian cometido.</p>
+​
+<body>
+    <header class="web header">
+        <h1 class="title">El Equipo A</h1>
+        <nav class="main menu">
+            <div class="col-phone-6 col-tablet-3">
+                <a href="">Inicio</a>
+            </div>
+            <div class="col-phone-6 col-tablet-3">
+                <a href="">Quienes somos</a>
+            </div>
+            <div class="col-phone-6 col-tablet-3">
+                <a href="">Qué hacemos</a>
+            </div>
+            <div class="col-phone-6 col-tablet-3">
+                <a href="">Contacto</a>
+            </div>
+        </nav>
+    </header>
+    <img src="dist/img/a_team_20.jpg" alt="El equipo A al completo" class="boing-animation">
+    <section id="quienes-somos" class="content section about-us">
+        <header class="header">
+            <h2 class="title">Quienes somos</h2>
+        </header>
+        <div class="row">
+            <div class="col-phone-12 col-tablet-3">                    
+                <article class="profile animated shake">
+                    <header>
+                        <h3 class="name">
+                            John Hannibal Smith
+                            (<cite class="real-name">George Peppard</cite>)
+                        </h3>
+                        <h4 class="position">Coronel</h4>
+                    </header>
+                    <figure class="photo">
+                        <img src="dist/img/smith.png" alt="Foto de Hannibal Smith">
+                        <figcaption>
+                            John Hannibal Smith
+                        </figcaption>
+                    </figure>
+                    <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quaerat accusantium veritatis iusto eum sit eveniet, dolorem rerum tenetur nemo error? Fugiat vel possimus illum nemo aliquam libero tempore, ex!</p>
+                </article>
+            </div>
+            <div class="col-phone-12 col-tablet-3">
+                <article class="profile">
+                    <header>
+                        <h3 class="name animated flipInY">
+                            Bosco A. M. A. Baracus
+                            (<cite class="real-name">Mr. T.</cite>)
+                        </h3>
+                        <h4 class="position">Sargento</h4>
+                    </header>
+                    <figure class="photo">
+                        <img src="dist/img/ma.png" alt="Foto de M.A.">
+                        <figcaption>Bosco A. M. A. Baracus</figcaption>
+                    </figure>
+                    <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quaerat accusantium veritatis iusto eum sit eveniet, dolorem rerum tenetur nemo error? Fugiat vel possimus illum nemo aliquam libero tempore, ex!</p>
+                </article>
+            </div>
+            <div class="col-phone-12 col-tablet-3">
+                <article class="profile animated rollIn">
+                    <header>
+                        <h3 class="name">
+                            H.M. Murdock
+                            (<cite class="real-name">Dwight Schultz</cite>)
+                        </h3>
+                        <h4 class="position">Capitán</h4>
+                    </header>
+                    <figure class="photo">
+                        <img src="dist/img/murdock.png" alt="Foto de Murdock">
+                        <figcaption>H.M. Murdock</figcaption>
+                    </figure>
+                    <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quaerat accusantium veritatis iusto eum sit eveniet, dolorem rerum tenetur nemo error? Fugiat vel possimus illum nemo aliquam libero tempore, ex!</p>
+                </article>
+            </div>
+            <div class="col-phone-12 col-tablet-3">
+                <article class="profile animated bounceInDown">
+                    <header>
+                        <h3 class="name">
+                            Templeton Peck
+                            (<cite class="real-name">Dirk Benedict</cite>)
+                        </h3>
+                        <h4 class="position">Teniente</h4>
+                    </header>
+                    <figure class="photo">
+                        <img src="dist/img/peck.png" alt="Foto de Fénix">
+                        <figcaption>Fénix</figcaption>
+                    </figure>
+                    <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quaerat accusantium veritatis iusto eum sit eveniet, dolorem rerum tenetur nemo error? Fugiat vel possimus illum nemo aliquam libero tempore, ex!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="que-hacemos">
+        <header>
+            <h2>Qué hacemos</h2>
+        </header>
+        <p>En <time datetime="1972">1972</time> cuatro de los mejores hombres del ejercito Norteamericano que formaban un comando, fueron encarcelados por un delito que no habian cometido.</p>
         <p>No tardaron en fugarse de la prisión en la que se encontraban recluídos.</p>
         <p>Hoy, todavía buscados por el Gobierno, sobreviven como soldados de fortuna.</p>
         <p>Si usted tiene algún problema y si se los encuentra, quizá pueda contratarlos.</p>
         <p>Ellos son <strong>El Equipo A</strong>.</p>
-	</section>
-
-
+    </section>
+    <section id="contacto">
+        <header>
+            <h2>Contacto</h2>
+        </header>
+        <form method="get" action="/login">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="name@company.com" required pattern="[A-Za-z0-9\.\+]+@[A-Za-z0-9]+\.[A-Za-z0-9\.]+">
+            </div>
+            <div>
+                <div>Tipo de misión</div>
+                <input type="radio" id="tipo_mision_1" name="tipo_mision" value="Rescate" required>
+                <label for="tipo_mision_1">Rescate</label>
+                <input type="radio" id="tipo_mision_2" name="tipo_mision" value="Ajuste de cuentas" required>
+                <label for="tipo_mision_2">Ajuste de cuentas</label>
+                <input type="radio" id="tipo_mision_3" name="tipo_mision" value="Disparos y explosivos sin heridos" required>
+                <label for="tipo_mision_3">Disparos y explosivos sin heridos</label>
+                <input type="radio" id="tipo_mision_4" name="tipo_mision" value="Disparos y explosivos con heridos de mentira" required>
+                <label for="tipo_mision_4">Disparos y explosivos con heridos de mentira</label>
+            </div>
+            <div>
+                <label for="ejercito">Tamaño del ejército enemigo: </label>
+                <input type="number" id="ejercito" name="ejercito" min="10" required>
+            </div>
+            <div>
+                <label for="fecha">Fecha de trabajo:</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
 </body>
+​
 </html>
