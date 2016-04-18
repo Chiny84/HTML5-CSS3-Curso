@@ -114,7 +114,7 @@
         <header>
             <h2>Contacto</h2>
         </header>
-        <form method="get" action="/login">
+        <form method="get"  name="contact" noValidate>
             <div>
                 <label for="nombre">Nombre:</label>
                 <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
@@ -143,10 +143,11 @@
                 <input type="date" id="fecha" name="fecha" required>
             </div>
             <div>
-                <button type="submit">Enviar</button>
+                <button id="form-button" type="button">Enviar</button>
             </div>
         </form>
     </section>
+    <script src="js/form.js"></script>
 </body>
 ​
 </html>
